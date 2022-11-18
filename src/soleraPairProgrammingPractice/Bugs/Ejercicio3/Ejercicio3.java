@@ -1,6 +1,6 @@
 package soleraPairProgrammingPractice.Bugs.Ejercicio3;
 
-public class Exercise3 {
+public class Ejercicio3 {
     protected PreDeConModel computeLocalModel (DoubleDBIDList neighbors, ...){
         final int referenceSetSize neighbors.size ();
 //      Shouldn 't happen:
