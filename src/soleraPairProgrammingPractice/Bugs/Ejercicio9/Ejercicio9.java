@@ -1,4 +1,4 @@
-package soleraPairProgrammingPractice.Bugs;
+package soleraPairProgrammingPractice.Bugs.Ejercicio9;
 
 public class Ejercicio9 {
 	
