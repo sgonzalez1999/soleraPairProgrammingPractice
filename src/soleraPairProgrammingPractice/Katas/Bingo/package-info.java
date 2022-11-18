@@ -1,0 +1,1 @@
+package soleraPairProgrammingPractice.Katas.Bingo;
