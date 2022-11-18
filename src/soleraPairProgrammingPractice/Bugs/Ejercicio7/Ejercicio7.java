@@ -5,7 +5,8 @@ public class Ejercicio7 {
 	public void putToCache(PutRecordsRequest putRecordsRequest) 
 	{
 		....
-		if(!dataTmpfile.exists()){//it doesnt make sense for a file to be null
+		if(dataTmpFile!=null && !dataTmpFile.exists())//type at the first condition, the == throws nullPointerException before creating the file
+		{
 			try{
 				dataTmpfile.createNewFile();
 			}catch(IOException e){
